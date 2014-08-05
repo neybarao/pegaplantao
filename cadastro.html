@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6 oldie" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7 oldie" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8 oldie" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class='no-js' lang='en'>
+  <!--<![endif]-->
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <title>Pega Plantão</title>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-icon.png">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    
+    <link href='stylesheets/style.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          
+          <a class="brand" href="#">Pega Plantão</a>
+          
+          <!-- Everything you want hidden at 940px or less, place within here -->
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html">Página Inicial</a></li>
+              <li class=""><a href="http://blog.pegaplantao.com.br">Blog</a></li>
+              <li class=""><a href="faq.html">FAQ</a></li>
+              <li class=""><a href="login.html">Login</a></li>
+              <li class=""><a href="cadastro.html">Cadastro</a></li>
+              <li class=""><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="responsiveSignUp">
+      <a href="#" class="btn btn-large btn-primary">Cadastre-se</a>
+    </div><!-- .smartphoneSelector -->
+    
+    <div id="header">
+      <div class="container">
+        <div class="topSelector">
+          <ul>
+            <li><span>Clique aqui se você é</span></li>
+            <li><a href="medico.html" class="med">Médico</a></li>
+            <li><a href="enfermeiro.html" class="enf">Enfermeiro</a></li>
+            <li><a href="anunciante.html" class="anun">Anunciante</a></li>
+            <li><a href="index.html" class="other">Outro?</a></li>
+            <li class="oneHundred"><a href="#" class="signUpCallToAction"><span>+</span> Cadastre-se</a></li>
+          </ul>
+          
+        </div><!-- .topSelector -->
+      </div><!-- .container -->
+    </div><!-- #header -->
+    
+    <div id="topMenu">
+      <div class="container">
+        <div class="logoPP">
+          <h1>Pega Plantão</h1>
+        </div>
+        
+        <div class="mainMenu">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cadastro.html" class="current">Cadastro</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </div><!-- .mainMenu -->
+      </div><!-- .container -->
+    </div><!-- #topMenu -->
+    
+    <div id="signUpForm">
+      <form action="" method="get" accept-charset="utf-8">
+      
+      <div class="container">
+       
+        <div class="sevenColumns">
+          <ul id="userType">
+            <li><a href="#" class="current"><img src="images/ico-anun.png" alt=""> <span>Anunciante</span></a></li>
+            <li><a href="#"><img src="images/ico-dent.png" alt=""> <span>Dentista</span></a></li>
+            <li><a href="#"><img src="images/ico-enf.png" alt=""> <span>Enfermeiro</span></a></li>
+            <li><a href="#"><img src="images/ico-tecenf.png" alt=""> <span>Técnico de Enfermagem</span></a></li>
+            <li><a href="#"><img src="images/ico-med.png" alt=""> <span>Médico</span></a></li>
+          </ul>
+          
+          <div class="control-group">
+            <label class="control-label">CRM</label>
+            <input type="number" name="" value="" placeholder="apenas números" class="span2">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">UF</label>
+            <select name="" class="chzn-select" data-placeholder="Escolha um Estado...">
+              <option value=""></option>
+              <option value="">São Paulo</option>
+              <option value="">Rio de Janeiro</option>
+              <option value="">Mato Grosso do Sul</option>
+            </select>
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+        </div>
+        
+        <div class="fiveColumns">
+          <div class="tip">
+            <h3>Tipo de conta</h3>
+            <p>Escolha o tipo de conta que mais condiz com a sua profissão.</p>
+          </div>
+          
+          <div class="icon">
+            <img src="images/ico-tipo-conta.png" alt="Tipo de Conta">
+          </div>
+        </div>
+        
+      </div><!-- .container -->
+      
+      <div class="container">
+        <div class="sevenColumns">
+          <h2>Dados de acesso ao sistema</h2>
+          
+          <div class="control-group">
+            <label class="control-label">Nome de usuário</label>
+            <input type="text" name="" value="" placeholder="ex: anamaria">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group error">
+            <label class="control-label">Email</label>
+            <input type="email" name="" value="" placeholder="ex: anamaria01@gmail.com">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group warning">
+            <label class="control-label">Repita o Email</label>
+            <input type="email" name="" value="" placeholder="repita o endereço de email">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group success">
+            <label class="control-label">Senha</label>
+            <input type="password" name="" value="" placeholder="senha">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Repita a Senha</label>
+            <input type="password" name="" value="" placeholder="repita a senha">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+        </div>
+        
+        <div class="fiveColumns">
+          <div class="tip">
+            <h3>Dados de acesso</h3>
+            <p>Estes são os dados que você utilizará para acessar o sistema.</p>
+            <p>Alguns dados não poderão ser alterados posteriormente.</p>
+          </div>
+          
+          <div class="icon">
+            <img src="images/ico-dados-acesso.png" alt="Dados de acesso">
+          </div>
+        </div>
+      </div><!-- .container -->
+      
+      <div class="container">
+        <div class="sevenColumns">
+          <h2>Dados pessoais</h2>
+          
+          <div class="control-group">
+            <label class="control-label">Primeiro Nome</label>
+            <input type="text" name="" value="" placeholder="Preenchimento Obrigatório">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Sobrenome</label>
+            <input type="text" name="" value="" placeholder="Preenchimento Obrigatório">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Data de Nascimento</label>
+            <input type="number" name="" value="" placeholder="Somente números">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+        </div>
+        
+        <div class="fiveColumns">
+          <div class="tip">
+            <h3>Dados Pessoais</h3>
+            <p>Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.</p>
+          </div>
+          
+          <div class="icon">
+            <img src="images/ico-dados-pessoais.png" alt="Dados Pessoais">
+          </div>
+        </div>
+      </div><!-- .container -->
+      
+      <div class="container">
+        <div class="sevenColumns">
+          <h2>Dados para contato</h2>
+          
+          <div class="control-group">
+            <label class="control-label">CEP</label>
+            <input type="numbers" name="" value="" placeholder="Preenchimento Obrigatório">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Estado / Cidade</p>
+            <select name="" class="chzn-select" data-placeholder="Escolha um Estado..." style="width: 200px">
+              <option value=""></option>
+              <option value="">São Paulo</option>
+              <option value="">Rio de Janeiro</option>
+              <option value="">Mato Grosso do Sul</option>
+            </select>
+            <span class="help-inline">Mensagem de erro</span>
+            
+            <select name="" class="chzn-select" data-placeholder="Escolha uma Cidade..." style="width: 325px">
+              <option value=""></option>
+              <option value="">Campo Grande</option>
+              <option value="">Camapuã</option>
+              <option value="">Ponta Porã</option>
+            </select>
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Bairro</label>
+            <input type="text" name="" value="" placeholder="Preenchimento Obrigatório">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Rua</label>
+            <input type="text" name="" value="" placeholder="Preenchimento Obrigatório">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Número</label>
+            <input type="text" name="" value="" placeholder="Preenchimento Obrigatório">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Complemento</label>
+            <input type="text" name="" value="" placeholder="Preenchimento Obrigatório">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Telefone para contato</label>
+            <input type="number" name="" value="" placeholder="ex: (67) 3333 1111">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label">Celular</label>
+            <input type="number" name="" value="" placeholder="ex: (67) 9999 0000">
+            <span class="help-inline">Mensagem de erro</span>
+          </div>
+          
+        </div>
+        
+        <div class="fiveColumns">
+          <div class="tip">
+            <h3>Endereço</h3>
+            <p>Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.</p>
+          </div>
+          
+          <div class="icon">
+            <img src="images/ico-endereco.png" alt="Endereço">
+          </div>
+        </div>
+      </div><!-- .container -->
+      
+      <div class="container">
+        <div class="twelveColumns">
+          <h2>Termos de Uso</h2>
+          
+          <textarea name="" cols="40" rows="10" class="privacy">
+Termos de Uso do SITE PEGAPLANTAO.COM.BR
+Neste instrumento as palavras grafadas com letras maiúsculas terão o significado que a elas é soto-estabelecido:
+SITE: conjunto de páginas da Internet ocupado com conteúdo de empresas ou mesmo de pessoas. 
+PEGA PLANTÃO: é o SITE registrado sob o domínio pegaplantao.com.br, bem como todos os sub domínios, recursos e ferramentas relacionados a este.
+USUÁRIO(S): são as pessoas físicas ou jurídicas que acessam e usam os serviços providos pelo PEGA PLANTÃO. 
+ANUNCIANTE(S): é um tipo de USUÁRIO do PEGA PLANTÃO que compõe pessoas jurídicas, órgãos e associações. São USUÁRIOS que não se enquadram como pessoa física, ou seja, que não são profissionais plantonistas.
+1. Aceitação dos termos:
+  O prosseguimento no cadastro e/ou mesmo a continuidade do uso do PEGA PLANTÃO implica automaticamente na aceitação de todos os termos aqui descritos.
+  Se o USUÁRIO não concorda com algum item aqui descrito deve primeiramente solicitar a revisão/alteração ou então está automaticamente inapto a utilizar o serviço.
+2. Linhas gerais:
+  Este SITE, PEGA PLANTÃO, está estabelecido no domínio pegaplantao.com.br na rede mundial de computadores, internet. O objetivo é facilitar o encontro de profissionais de uma mesma classe para a troca de escalas de serviços (plantões), anúncios e busca de empregos e demais interações, principalmente profissional. O PEGA PLANTÃO é apenas um facilitador, funcionando como um anúncio de classificados.
+  O PEGA PLANTÃO apenas fornece os contatos e assim se exime de qualquer obrigação ou responsabilidade das interações dos USUÁRIOS: dados fornecidos, capacidade profissional de cada indivíduo, obrigações com o orgão da respectiva classe, não comparecimento, não pagamento e demais atribuições que são todas de responsabilidade dos dois USUÁRIOS que fizerem as transações.
+  O PEGA PLANTÃO se destina a profissionais devidamente capacitados a trabalhar e, se for o caso, em dia com seus respectivos conselhos (CRM, COREN, etc.), orgãos de classe, associações, etc.
+  Entidades que não são profissionais (pessoas físicas) podem aderir ao PEGA PLANTÃO como ANUNCIANTE e assim interagir com os USUÁRIOS que são profissionais.
+3. Direitos e deveres conferidos ao PEGA PLANTÃO:
+a) O PEGA PLANTÃO poderá, a qualquer momento e a seu exclusivo critério, modificar a configuração de seu SITE. Poderá também eliminar ou acrescentar quaisquer itens em seu banco de dados, adicionar ou retirar funcionalidades bem como alterar os regulamentos e contratos disponibilizados para os USUÁRIOS.
+b) O PEGA PLANTÃO poderá, a qualquer momento e a seu exclusivo critério, suspender e/ou bloquear um USUÁRIO, por qualquer motivo entendido pelos seus administradores, sem a necessidade de aviso prévio e nem mesmo explicação sobre a suspensão ou bloqueio.
+c) O PEGA PLANTÃO se compromete a, dentro das possibilidades, corrigir da melhor maneira e o mais rápido possível eventuais erros diagnosticados no funcionamento de seu SITE.
+d) O PEGA PLANTÃO não se responsabiliza por danos e/ou prejuízos decorrentes da indisponibilidade ou mesmo por erros de funcionamento do próprio SITE.
+e) Este termo de uso poderá ser reformulado a qualquer momento e o seu devido teor estará disponível em http://www.pegaplantao.com.br/termosdeuso
+f) É de interesse do PEGA PLANTÃO sempre reforçar a segurança do acesso ao SITE, todavia o PEGA PLANTÂO fica eximido de qualquer responsabilidade por danos ou problemas oriundos de acessos não autorizados de terceiros a áreas restritas do SITE.
+g) O PEGA PLANTÃO se compromete a sempre buscar melhorias, por vezes o SITE poderá ficar inacessível, mas sempre buscando um bem maior.
+h) O PEGA PLANTÃO também ficará disponível na área “fale conosco”, em http://www.pegaplantao.com.br/faleconosco, para ouvir dúvidas, sugestões e reclamações dos USUÁRIOS e responder a todos o mais rápido possível.
+i) O PEGA PLANTÃO sob nenhuma hipótese será responsável por eventuais perdas, prejuízos ou danos, de nenhuma causa ou natureza, seja contratual ou não, seja ela resultante de qualquer tipo de interação no SITE.
+j) As sanções de acesso aplicadas aos USUÁRIOS são de decisão única e exclusiva dos administradores do PEGA PLANTÃO, esta poderá ser desde uma suspensão temporária de acesso ao sistema ou até mesmo o bloqueio definitivo do acesso ao PEGA PLANTÃO.
+k) O PEGA PLANTÃO poderá, a qualquer momento e a seu exclusivo critério, começar a cobrar por seus serviços prestados. Essa cobrança poderá ser feita do modo que os administradores entenderem e não caberá aos USUÁRIOS nenhum tipo de contestação, podendo o USUÁRIO, livremente deixar de utilizar os serviços.
+l) O não pagamento de uma cobrança implica na automática restrição de acesso a qual se refere essa cobrança. Não cabe ao PEGA PLANTÃO, nesse caso, qualquer ressarcimento e ao USUÁRIO será aplicada a restrição relativa a devida cobrança.
+4. Direitos e deveres dos USUÁRIOS do PEGA PLANTÃO:
+  4.1 Aplicações a todos os tipos de USUÁRIOS que fazem uso do PEGA PLANTÃO:
+a) Cada USUÁRIO será detentor de um nome de usuário (login) e senha para acesso à sua área restrita no PEGA PLANTÃO, assumindo a devida responsabilidade sobre o sigilo da senha e a sua segurança de acesso.
+b) Após efetuarem a compra, troca ou venda de plantões, os USUÁRIOS poderão dar e receber avaliações. As avaliações servem para que profissionais com boa conduta no processo sejam evidenciados em futuras transações e os de má conduta devidamente marcados.
+*O PEGA PLANTÃO não se responsabiliza pela avaliação dada ou recebida por nenhum USUÁRIO.
+c) Fica sob responsabilidade de cada USUÁRIO as informações fornecidas ao PEGA PLANTÃO e a respectiva veracidade, exatidão e autenticidade.
+  4.2 No que se refere aos USUÁRIOS profissionais (pessoas físicas):
+a) Oferecemos os serviços de agenda, busca e troca de plantões para profissionais enquadrados nas categorias disponíveis no cadastro (Médico(a), Enfermeiro(a), etc.).
+b) Cada pessoa física pertence a uma categoria profissional. Esta pessoa poderá interagir SOMENTE com pessoas físicas da mesma categoria (Médico(a), Enfermeiro(a), etc.), ou interagir com pessoas jurídicas se assim for permitido.
+*O PEGA PLANTÃO se reserva o direito de adicionar ou retirar qualquer categoria sem aviso prévio.
+c) Cada elemento dessa categoria poderá criar ofertas de emprego, anunciar e se candidatar aos turnos de serviços (plantões) para venda ou troca, mas sempre dentro da sua classe profissional.
+d) Poderá ser viabilizado o uso dos serviços por outras classes ou entidades não disponíveis no cadastro. Nesse caso, normas e regras específicas poderão ser pré-estabelecidas, se for o caso.
+e) Para algumas classes de profissionais poderá ser exigido o registro de classe profissional. Se exigido o registro profissional, APENAS 1(UM) USUÁRIO poderá se registrar a partir desta identificação profissional. Representantes da lei serão devidamente notificados em caso de uso da identificação profissional de um terceiro. Se o USUÁRIO possuir o registro em mais de um estado, então deverá utilizar aquele registro ativo e que mais utiliza.
+  4.3 No que tange aos ANUNCIANTES:
+a) As áreas de acesso e ações disponíveis para cada ANUNCIANTE será devidamente acordado conforme o caso: Clínicas, Hospitais, órgãos governamentais, associações, sindicatos, etc.
+b) Em geral, ANUNCIANTES poderão criar ofertas de plantões, para diferentes classes profissionais, mas apenas para vender esses turnos de serviços, nunca se candidatar para algum. 
+c) Em geral, ANUNCIANTES poderão oferecer vagas de emprego para diferentes classes profissionais.
+5.Sobre as informações e privacidade no PEGA PLANTÃO:
+a) O PEGA PLANTÃO se compromete a tomar as medidas possíveis para manter a confidencialidade dos dados de cada USUÁRIO, todavia o PEGA PLANTÃO não se responsabiliza pela ação de pessoas que possam subverter essa segurança e acessar as informações dos USUÁRIOS.
+b) O PEGA PLANTÃO fica expressamente autorizado pelo USUÁRIO a fazer uso de qualquer tipo de comunicação (avisos, relatórios, marketing, etc.) do próprio SITE ou mesmo de terceiros e se utilizando qualquer meio (e-mail, sms, telefonia móvel, mala direta, etc.).
+c) Na área de pessoas físicas buscamos restringir o acesso somente a profissionais devidamente autorizados por seus respectivos conselhos, se existente.
+  Oferecemos a oportunidade de certificação de autenticidade no PEGA PLANTÃO: 1 - O USUÁRIO envia fotocópia de uma cédula que confirme sua identidade e outra que confirme seu registro no conselho, se for o caso. 2 - O sistema exibe que esse USUÁRIO passou por esse processo de autenticação. 3 - Fica sob responsabilidade de cada USUÁRIO do PEGA PLANTÃO interagir com USUÁRIOS devidamente autenticados ou não. *Fica claro que o processo de autenticação NÃO garante a autenticidade do USUÁRIO e de suas informações prestadas. Esse processo apenas busca dificultar a ação de mal intencionados que serão devidamente acionados civil e criminalmente.
+d) Autoridades representantes da lei poderão, se necessário, ter acesso irrestrito às informações colocadas no PEGA PLANTÃO a fim de coibir violações da lei ou da moral tais como: falsidade ideológica, injúria, difamação, etc.
+6. É expressamente VEDADO aos USUÁRIOS:
+*Qualquer infração abaixo está sujeita às sanções de acesso ao sistema ou mesmo denúncia às autoridades da lei e/ou ao orgão da classe competente.
+a) Fornecer dados e/ou informações não verídicas.
+b) Acessar, ou mesmo tentar, áreas não permitidas ao seu tipo de USUÁRIO. Por exemplo: Acessar áreas de profissionais de outra categoria, área de anunciantes, áreas administrativas, áreas de USUÁRIOS pagantes, etc.
+c) Permitir que terceiros acessem o PEGA PLANTÃO utilizando o seu cadastro, ou seja, com o seu nome de usuário e senha, indiferente da situação do terceiro.
+*Esse terceiro também poderá ser denunciado ao orgão da respectiva classe.
+d) Explorar o PEGA PLANTÃO com fins econômicos, cessão de acesso ou qualquer outra forma que não seja de seu uso próprio. Uso pessoal no caso do USUÁRIO pessoa física e uso da instituição no caso da pessoa jurídica, orgãos, associações, etc.
+7. O USUÁRIO está ciente de que:
+a) Deve completar o formulário cadastral fornecendo dados e informações verdadeiras e precisas, responsabilizando-se civil e criminalmente por sua veracidade, devendo atualizar os dados e informações sempre que houver alterações.
+b) Leu e está de acordo com os termos e condições deste instrumento.
+c) É de sua inteira responsabilidade a veracidade as informações colocadas no PEGA PLANTÃO bem como direitos outorgados a outrem.
+8. Dos pagamentos e contratações de serviços
+a) Se o acesso ao SITE estiver sendo cobrado, após a conclusão do cadastro, será concedido a cada USUÁRIO um período de avaliação. Este período será definido por um limite de tempo de acesso grátis, uma quantidade de trocas de plantões, anúncios e/ou qualquer outra contagem que o PEGA PLANTÃO julgar pertinente.
+b) Após o fim do período de avaliação, o USUÁRIO poderá dar continuidade ao acesso no PEGA PLANTÃO através do pagamento de algum plano disponível. A continuidade do acesso está condicionada a confirmação do pagamento.
+c) O PEGA PLANTÃO poderá, a qualquer momento e a seu exclusivo critério, começar a cobrança pelo acesso a qualquer funcionalidade do SITE, alterar o modo de contagem do período de avaliação, planos, recursos e funcionalidades disponíveis nos planos e seus respectivos valores.
+9.Rescisão
+a) Este contrato pode ser rescindido a qualquer momento, por qualquer uma das partes, havendo ou não infração de quaisquer cláusulas, bastando para tanto a manifestação por escrito de uma parte à outra.
+b) Fica estabelecido que ocorrendo a rescisão contratual, não haverá qualquer tipo de devolução de quantias pagas pelo USUÁRIO ao PEGA PLANTÃO.
+c) Havendo infração de qualquer cláusula deste termo de uso, o mesmo será automaticamente rescindido, independentemente de aviso ou comunicação entre as partes.
+d) A rescisão deste contrato, motivada ou não, comunicada ou não, implicará ao USUÁRIO na perda automática do acesso as páginas e/ou serviços do PEGA PLANTÃO pelo USUÁRIO.
+10. Lei e Jurisdição
+O presente Termo de Condições de Uso é regido pela legislação da República Federativa do Brasil. Os usuários do site PEGA PLANTÃO se submetem ao foro da Comarca de Campo Grande, capital do Estado de Mato Grosso do Sul, para dirimir quaisquer controvérsias, independente de qualquer outro foro, por mais privilegiado que seja.
+          </textarea>
+          
+          <p><a href="/TermosDeUso" target="_blank">Ler termos de uso em nova janela</a></p>
+          
+          <div class="controls">
+            <label class="checkbox">
+              <input type="checkbox" name="" value="" class="chkbx">
+              Estou de acordo e aceito os termos de uso.
+            </label>
+            
+            <label class="checkbox">
+              <input type="checkbox" name="" value="" class="chkbx">
+              Desejo receber email de parceiros do Pega Plantão.
+            </label>
+          </div><!-- .controls -->
+          
+          <br><br>
+          <div class="alignCenter">
+            <button type="submit" class="btn btn-large btn-primary">Confirmar e enviar</button>
+            <button type="reset" class="btn btn-large">Cancelar</button>
+          </div>
+        </div>
+        
+      </div><!-- .container -->
+      
+      </form>
+    </div><!-- #signUpForm -->
+    
+    <div id="footer">
+      <div class="container">
+
+        <footer>
+          <p>Pega Plantão</p>
+
+          <nav>
+            <ul>
+              <li><a href="index.html">Página Inicial</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="termos-de-uso.html">Termos de uso</a></li>
+              <li><a href="quem-somos.html">Quem Somos</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+
+        </footer>
+
+      </div><!-- .container -->
+    </div><!-- #footer -->
+
+    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+
+    <script src='javascripts/bootstrap.min.js'></script>
+    <script src='javascripts/hashgrid.js'></script>
+  </body>
+</html>

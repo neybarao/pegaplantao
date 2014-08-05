@@ -1,0 +1,1833 @@
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/_hashgrid.sass */
+#grid {
+  /* Dimensions - same width as your grid with gutters */
+  width: 970px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -480px;
+  z-index: 10000;
+}
+/* line 25, ../sass/_hashgrid.sass */
+#grid div.vert {
+  width: 59px;
+  border: solid rgba(0, 176, 178, 0.3);
+  border-width: 0 1px;
+  margin-right: 19px;
+}
+/* line 30, ../sass/_hashgrid.sass */
+#grid div.first-line {
+  margin-left: 9px;
+}
+/* line 32, ../sass/_hashgrid.sass */
+#grid div.horiz {
+  height: 5px;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  margin: 0;
+  padding: 0;
+}
+/* line 37, ../sass/_hashgrid.sass */
+#grid div.grid-1 div.vert {
+  /* Vertical grid line colour for grid 1 */
+  border-color: rgba(0, 176, 178, 0.3);
+}
+
+/* line 59, ../sass/partials/_base.sass */
+a {
+  color: #4040ff;
+}
+/* line 61, ../sass/partials/_base.sass */
+a:hover {
+  text-decoration: none;
+}
+
+/* Selected Text -------------------------------------------------------------- */
+/* line 72, ../sass/partials/_base.sass */
+::-moz-selection {
+  color: black;
+  background: #f7e897;
+  text-shadow: none;
+}
+
+/* line 77, ../sass/partials/_base.sass */
+::selection {
+  color: black;
+  background: #f7e897;
+  text-shadow: none;
+}
+
+/* line 84, ../sass/partials/_base.sass */
+input, textarea, select {
+  outline: none;
+}
+
+/* line 7, ../sass/partials/_page.sass */
+body, select, input, textarea {
+  color: #333333;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+@media print {
+  /* Style adjustments for print go here */
+}
+/* Layout ------------------------------------------------------------------ */
+/* line 35, ../sass/style.sass */
+html, body {
+  font-size: 14px;
+  background: white;
+}
+
+/* line 38, ../sass/style.sass */
+a {
+  position: relative;
+}
+
+/* line 41, ../sass/style.sass */
+.container {
+  *zoom: 1;
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 46, ../sass/style.sass */
+.navbar {
+  display: none;
+}
+
+/* line 50, ../sass/style.sass */
+.responsiveSignUp {
+  display: none;
+}
+
+/* line 53, ../sass/style.sass */
+#header {
+  background-color: #f6f6f6;
+  color: #666666;
+}
+/* line 57, ../sass/style.sass */
+#header .topSelector {
+  display: inline;
+  float: left;
+  width: 97.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+/* line 62, ../sass/style.sass */
+#header .topSelector ul {
+  float: right;
+  position: relative;
+}
+/* line 65, ../sass/style.sass */
+#header .topSelector ul li {
+  display: block;
+  float: left;
+  font-family: "Droid Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-left: 1px;
+  height: 26px;
+}
+/* line 73, ../sass/style.sass */
+#header .topSelector ul li span {
+  display: block;
+  padding: 6px 10px;
+  font-size: 0.714em;
+  line-height: 1.4em;
+}
+/* line 77, ../sass/style.sass */
+#header .topSelector ul li a {
+  font-size: 0.714em;
+  line-height: 1.4em;
+  display: block;
+  width: 80px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px 0;
+}
+/* line 85, ../sass/style.sass */
+#header .topSelector ul li a.med {
+  background-color: #008aff;
+}
+/* line 87, ../sass/style.sass */
+#header .topSelector ul li a.med:hover {
+  background-color: #007ce6;
+}
+/* line 89, ../sass/style.sass */
+#header .topSelector ul li a.enf {
+  background-color: #0074d6;
+}
+/* line 91, ../sass/style.sass */
+#header .topSelector ul li a.enf:hover {
+  background-color: #0066bd;
+}
+/* line 93, ../sass/style.sass */
+#header .topSelector ul li a.anun {
+  background-color: #0063b6;
+}
+/* line 95, ../sass/style.sass */
+#header .topSelector ul li a.anun:hover {
+  background-color: #00559d;
+}
+/* line 97, ../sass/style.sass */
+#header .topSelector ul li a.other {
+  background-color: #004d8e;
+}
+/* line 99, ../sass/style.sass */
+#header .topSelector ul li a.other:hover {
+  background-color: #003f75;
+}
+/* line 102, ../sass/style.sass */
+#header .topSelector ul li a.signUpCallToAction {
+  display: block;
+  float: right;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 1.286em;
+  line-height: 1.556em;
+  height: 32px;
+  line-height: 30px;
+  color: white;
+  background-color: #ff9c00;
+  padding: 0 12px;
+  margin-bottom: -8px;
+  text-decoration: none;
+  width: auto;
+}
+/* line 115, ../sass/style.sass */
+#header .topSelector ul li a.signUpCallToAction:hover {
+  background-color: #e68c00;
+}
+/* line 117, ../sass/style.sass */
+#header .topSelector ul li a.signUpCallToAction span {
+  display: inline;
+  font-size: 1.286em;
+  line-height: 1.556em;
+  height: 20px;
+  line-height: 30px;
+  color: #be6800;
+  padding: 0;
+  padding-right: 10px;
+  margin-right: 3px;
+  border-right: 1px solid #c47300;
+}
+
+/* line 131, ../sass/style.sass */
+#topMenu .logoPP {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 22.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#topMenu .logoPP:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 136, ../sass/style.sass */
+#topMenu .mainMenu {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 72.917%;
+  margin-right: 2.083%;
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#topMenu .mainMenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 141, ../sass/style.sass */
+#topMenu .container {
+  margin-top: 10px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 10px;
+}
+
+/* line 146, ../sass/style.sass */
+#topMenu ul {
+  float: right;
+  font-family: "Droid Sans", sans-serif;
+}
+/* line 149, ../sass/style.sass */
+#topMenu ul li {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  margin-left: 15px;
+  line-height: 63px;
+}
+/* line 7, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+#topMenu ul li {
+  *display: inline;
+}
+/* line 153, ../sass/style.sass */
+#topMenu ul li a {
+  font-size: 0.929em;
+  line-height: 2.154em;
+  color: #a6a6a6;
+  padding: 10px 0;
+  text-decoration: none;
+}
+/* line 158, ../sass/style.sass */
+#topMenu ul li a:hover {
+  text-decoration: underline;
+  color: #004e80;
+}
+/* line 161, ../sass/style.sass */
+#topMenu ul li a.current {
+  color: #007ece;
+}
+
+/* line 164, ../sass/style.sass */
+#topMenu h1 {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  width: 190px;
+  height: 63px;
+  background: url("../images/logo-small.png") no-repeat center center;
+  float: left;
+}
+
+/* line 179, ../sass/style.sass */
+#topBanner {
+  margin-top: 30px;
+}
+/* line 181, ../sass/style.sass */
+#topBanner .quote {
+  font-family: "Droid Serif", serif;
+  font-size: 1.571em;
+  line-height: 1.273em;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+/* line 187, ../sass/style.sass */
+#topBanner .slideshow {
+  display: inline;
+  float: left;
+  width: 97.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* line 196, ../sass/style.sass */
+#content {
+  *zoom: 1;
+  padding-bottom: 30px;
+  font-family: "Droid Sans", sans-serif;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 200, ../sass/style.sass */
+#content .threeColumns {
+  display: inline;
+  float: left;
+  width: 22.917%;
+  margin-right: 2.083%;
+}
+/* line 202, ../sass/style.sass */
+#content .threeColumns.firstCol {
+  margin-left: 1.042%;
+}
+/* line 204, ../sass/style.sass */
+#content .threeColumns.lastCol {
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+}
+/* line 206, ../sass/style.sass */
+#content .sixColumns {
+  display: inline;
+  float: left;
+  width: 47.917%;
+  margin-right: 2.083%;
+}
+/* line 208, ../sass/style.sass */
+#content .sixColumns.firstCol {
+  margin-left: 1.042%;
+}
+/* line 210, ../sass/style.sass */
+#content .sixColumns.lastCol {
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+}
+/* line 212, ../sass/style.sass */
+#content .twelveColumns {
+  display: inline;
+  float: left;
+  width: 97.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+/* line 215, ../sass/style.sass */
+#content h2 {
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  font-size: 1.429em;
+  line-height: 1.4em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
+  color: #333333;
+}
+/* line 224, ../sass/style.sass */
+#content p {
+  font-size: 1em;
+  line-height: 2em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+/* line 228, ../sass/style.sass */
+#content .advantage {
+  *zoom: 1;
+  padding: 30px 0;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#content .advantage:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 231, ../sass/style.sass */
+#content .advantage img {
+  margin-bottom: 10px;
+}
+/* line 233, ../sass/style.sass */
+#content .advantage h2 {
+  border: none;
+  margin: 0;
+  color: #007ece;
+}
+/* line 237, ../sass/style.sass */
+#content .advantage p {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 0.857em;
+  line-height: 2.333em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+/* line 242, ../sass/style.sass */
+#content .advantage i {
+  font-style: italic;
+  font-family: "Droid Serif", serif;
+}
+/* line 246, ../sass/style.sass */
+#content .talkingAboutUs {
+  display: inline;
+  float: left;
+  width: 97.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+
+/* line 250, ../sass/style.sass */
+.btn {
+  font-family: "Droid Sans", sans-serif;
+}
+
+/* line 253, ../sass/style.sass */
+.videoAndAds {
+  *zoom: 1;
+  padding: 30px 0;
+  border-top: 1px solid #f1f1f1;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.videoAndAds:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 257, ../sass/style.sass */
+.videoAndAds .blogPosts {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+/* line 260, ../sass/style.sass */
+.videoAndAds .blogPosts h2 {
+  border: none;
+  margin: 0 !important;
+}
+/* line 263, ../sass/style.sass */
+.videoAndAds .blogPosts .blogPostCell {
+  border-bottom: 1px solid #e9e9e9;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  *zoom: 1;
+  padding: 15px 0;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.videoAndAds .blogPosts .blogPostCell:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 269, ../sass/style.sass */
+.videoAndAds .blogPosts .blogPostCell a {
+  display: block;
+  color: #333333;
+}
+/* line 272, ../sass/style.sass */
+.videoAndAds .blogPosts .blogPostCell a:hover {
+  color: #007ece;
+}
+/* line 274, ../sass/style.sass */
+.videoAndAds .blogPosts .blogPostCell a p {
+  font-size: 1em;
+  line-height: 2em;
+  line-height: 1em;
+}
+/* line 277, ../sass/style.sass */
+.videoAndAds .blogPosts .blogPostCell a img {
+  float: left;
+  margin-right: 15px;
+}
+/* line 281, ../sass/style.sass */
+.videoAndAds .videoPP {
+  display: inline;
+  float: left;
+  width: 64.583%;
+  margin-right: 2.083%;
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+}
+/* line 284, ../sass/style.sass */
+.videoAndAds .videoPP .youTubeVideo {
+  width: 100%;
+  height: 345px;
+}
+
+/* line 292, ../sass/style.sass */
+#facebook-line {
+  background: #f2f2f2;
+  border-top: 1px solid #e9e9e9;
+  padding: 15px 0;
+}
+/* line 297, ../sass/style.sass */
+#facebook-line .facebook-likebox {
+  display: inline;
+  float: left;
+  width: 97.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+
+/* line 304, ../sass/style.sass */
+#footer {
+  padding: 20px 0;
+  background-color: #323232;
+  border-top: 4px solid #1c1c1c;
+}
+/* line 309, ../sass/style.sass */
+#footer footer {
+  display: inline;
+  float: left;
+  width: 97.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+  padding: 10px 0;
+  padding-left: 50px;
+  background: url("../images/footer-logo.png") left center no-repeat;
+  color: #858585;
+}
+/* line 316, ../sass/style.sass */
+#footer footer p {
+  margin: 0;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 0.857em;
+  line-height: 2.333em;
+  line-height: 1.1em;
+}
+/* line 322, ../sass/style.sass */
+#footer footer ul li {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  margin-right: 10px;
+}
+/* line 7, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+#footer footer ul li {
+  *display: inline;
+}
+/* line 325, ../sass/style.sass */
+#footer footer ul li a {
+  color: #2998ff;
+  text-decoration: underline;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 0.786em;
+  line-height: 2.545em;
+  line-height: 1em;
+}
+/* line 331, ../sass/style.sass */
+#footer footer ul li a:hover {
+  color: #99ceff;
+}
+
+/* line 334, ../sass/style.sass */
+.useterms {
+  *zoom: 1;
+  margin: auto;
+  width: 960px;
+  max-width: 100%;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.useterms:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 337, ../sass/style.sass */
+.useterms .usetermsContent {
+  font-family: "Droid Sans", sans-serif;
+  display: inline;
+  float: left;
+  width: 97.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+/* line 342, ../sass/style.sass */
+.useterms .usetermsContent h1 {
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  font-size: 1.429em;
+  line-height: 1.4em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  color: #333333;
+}
+/* line 350, ../sass/style.sass */
+.useterms .usetermsContent p {
+  margin-bottom: 20px;
+}
+
+/* line 355, ../sass/style.sass */
+.control-group textarea {
+  background-color: #e9e9e9;
+  width: 99%;
+}
+/* line 358, ../sass/style.sass */
+.control-group textarea:focus {
+  background-color: white;
+}
+
+/* line 361, ../sass/style.sass */
+.alignCenter {
+  text-align: center;
+}
+
+/* line 2, ../sass/_added-later.sass */
+.useterms .usetermsContent p {
+  line-height: 25px;
+}
+
+/* line 4, ../sass/_added-later.sass */
+.useterms .usetermsContent p.clear {
+  margin-bottom: 30px;
+}
+
+/* line 6, ../sass/_added-later.sass */
+.useterms .usetermsContent strong {
+  font-weight: bold;
+}
+
+/* line 8, ../sass/_added-later.sass */
+.useterms .usetermsContent p.newp {
+  text-indent: 40px;
+}
+
+/* line 10, ../sass/_added-later.sass */
+.useterms .usetermsContent ol {
+  clear: both;
+  line-height: 20px;
+}
+
+/* line 13, ../sass/_added-later.sass */
+.useterms .usetermsContent ol li {
+  text-indent: 60px;
+  list-style-position: inside;
+  list-style-type: lower-alpha !important;
+  line-height: 25px;
+}
+
+/*REGISTER COMPLETED */
+/******************************************** */
+/* line 22, ../sass/_added-later.sass */
+#registerCompletedForm {
+  *zoom: 1;
+  font-family: "Droid Sans", sans-serif;
+  padding: 60px 0;
+}
+
+/* line 27, ../sass/_added-later.sass */
+#registerCompletedForm:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 32, ../sass/_added-later.sass */
+#registerCompletedForm label {
+  font-size: 1.143em;
+  line-height: 1.75em;
+  color: #666666;
+}
+
+/* line 37, ../sass/_added-later.sass */
+#registerCompletedForm .firstCol {
+  margin-left: 1.042%;
+  display: inline;
+  float: left;
+  width: 39.583%;
+  margin-right: 2.083%;
+}
+
+/* line 44, ../sass/_added-later.sass */
+#registerCompletedForm .firstCol a {
+  color: #007ece;
+}
+
+/* line 47, ../sass/_added-later.sass */
+#registerCompletedForm .firstCol a:hover {
+  color: #004e80;
+}
+
+/* line 50, ../sass/_added-later.sass */
+#registerCompletedForm .firstCol p {
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+
+/* line 54, ../sass/_added-later.sass */
+#registerCompletedForm .firstCol p em {
+  font-size: 1.286em;
+  line-height: 1.556em;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+}
+
+/* line 60, ../sass/_added-later.sass */
+#registerCompletedForm .firstCol h2 {
+  font-family: "Droid Serif", serif;
+  font-size: 3.429em;
+  line-height: 1.167em;
+  letter-spacing: -3px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* line 68, ../sass/_added-later.sass */
+#registerCompletedForm .secondCol {
+  display: inline;
+  float: left;
+  width: 47.917%;
+  margin-right: 2.083%;
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+}
+
+/*BOOTSTRAP */
+/******************************************** */
+/* line 81, ../sass/_added-later.sass */
+.alert-block a {
+  color: #c09853;
+  text-decoration: underline;
+}
+
+/* line 85, ../sass/_added-later.sass */
+.alert-block a:hover {
+  color: #d95c00;
+}
+
+/* line 89, ../sass/_added-later.sass */
+.alert-success a {
+  color: #468847;
+  text-decoration: underline;
+}
+
+/* line 93, ../sass/_added-later.sass */
+.alert-success a:hover {
+  color: #3c7356;
+}
+
+/* line 97, ../sass/_added-later.sass */
+.alert-error a {
+  color: #b94a48;
+  text-decoration: underline;
+}
+
+/* line 101, ../sass/_added-later.sass */
+.alert-error a:hover {
+  color: #983d3a;
+}
+
+/* line 106, ../sass/_added-later.sass */
+.alert-info a {
+  color: #3a87ad;
+  text-decoration: underline;
+}
+
+/* line 110, ../sass/_added-later.sass */
+.alert-info a:hover {
+  color: #00559d;
+}
+
+/*SUGGESTED READ */
+/******************************************** */
+/* line 115, ../sass/_added-later.sass */
+#suggestedRead {
+  *zoom: 1;
+  font-family: "Droid Sans", sans-serif;
+  padding: 60px 0;
+}
+
+/* line 120, ../sass/_added-later.sass */
+#suggestedRead:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 127, ../sass/_added-later.sass */
+#suggestedRead h1 {
+  font-size: 1.571em;
+  line-height: 1.273em;
+  padding-bottom: 20px;
+}
+/* line 130, ../sass/_added-later.sass */
+#suggestedRead h2 {
+  font-size: 1.429em;
+  line-height: 1.4em;
+}
+/* line 132, ../sass/_added-later.sass */
+#suggestedRead h3 {
+  font-size: 1.286em;
+  line-height: 1.556em;
+}
+/* line 134, ../sass/_added-later.sass */
+#suggestedRead h4 {
+  font-size: 1.143em;
+  line-height: 1.75em;
+}
+/* line 137, ../sass/_added-later.sass */
+#suggestedRead div.lvl {
+  padding-left: 50px;
+  border-left: 1px solid #cccccc;
+}
+/* line 141, ../sass/_added-later.sass */
+#suggestedRead ol {
+  font-size: 14px;
+  padding-left: 20px;
+}
+/* line 145, ../sass/_added-later.sass */
+#suggestedRead li {
+  line-height: 22px;
+}
+/* line 148, ../sass/_added-later.sass */
+#suggestedRead strong {
+  font-weight: bold;
+}
+/* line 151, ../sass/_added-later.sass */
+#suggestedRead em {
+  font-style: italic;
+}
+/* line 154, ../sass/_added-later.sass */
+#suggestedRead .field {
+  font-weight: bold;
+  color: #007ed6;
+  text-decoration: underline;
+}
+/* line 159, ../sass/_added-later.sass */
+#suggestedRead .editplacelink {
+  font-size: 14px;
+  color: #cc0000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* line 165, ../sass/_added-later.sass */
+#suggestedRead .showLink {
+  color: #90a900;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* line 3, ../sass/_signup.sass */
+#signUpForm {
+  padding: 30px 0;
+  font-family: "Droid Sans", sans-serif;
+}
+/* line 7, ../sass/_signup.sass */
+#signUpForm a {
+  color: #007ece;
+}
+/* line 9, ../sass/_signup.sass */
+#signUpForm a:hover {
+  color: #004e80;
+}
+/* line 12, ../sass/_signup.sass */
+#signUpForm label {
+  font-size: 1.143em;
+  line-height: 1.75em;
+  color: #666666;
+}
+/* line 16, ../sass/_signup.sass */
+#signUpForm .container {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #f1f1f1;
+}
+/* line 21, ../sass/_signup.sass */
+#signUpForm .sevenColumns {
+  display: inline;
+  float: left;
+  width: 56.25%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+/* line 25, ../sass/_signup.sass */
+#signUpForm .fiveColumns {
+  display: inline;
+  float: left;
+  width: 39.583%;
+  margin-right: 2.083%;
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+}
+/* line 29, ../sass/_signup.sass */
+#signUpForm .twelveColumns {
+  display: inline;
+  float: left;
+  width: 97.917%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+/* line 33, ../sass/_signup.sass */
+#signUpForm .icon {
+  position: relative;
+  background: #008aff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: baseline;
+  text-align: center;
+  float: right;
+}
+/* line 42, ../sass/_signup.sass */
+#signUpForm .icon img {
+  line-height: 60px;
+  vertical-align: middle;
+}
+/* line 45, ../sass/_signup.sass */
+#signUpForm .tip {
+  position: relative;
+  background: #f1f1f1;
+  padding: 15px;
+  color: #666666;
+  float: right;
+  width: 270px;
+}
+/* line 52, ../sass/_signup.sass */
+#signUpForm .tip p {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 0.929em;
+  line-height: 2.154em;
+  margin-bottom: 10px;
+}
+/* line 57, ../sass/_signup.sass */
+#signUpForm h2 {
+  color: #444444;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  font-size: 1.429em;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+}
+/* line 64, ../sass/_signup.sass */
+#signUpForm h3 {
+  color: #444444;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  font-size: 1.286em;
+  line-height: 1.556em;
+  margin-bottom: 15px;
+}
+/* line 71, ../sass/_signup.sass */
+#signUpForm #userType {
+  margin-bottom: 10px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 74, ../sass/_signup.sass */
+#signUpForm #userType li {
+  position: relative;
+  display: block;
+  float: left;
+  width: 20%;
+}
+/* line 79, ../sass/_signup.sass */
+#signUpForm #userType li a {
+  display: block;
+  padding: 10px;
+  height: 115px;
+  border-right: 1px solid #e2e2e2;
+  background-color: #eeeeee;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 0.857em;
+  line-height: 2.333em;
+  color: #7f7f7f;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 90, ../sass/_signup.sass */
+#signUpForm #userType li a:hover {
+  background: #e1e1e1;
+}
+/* line 92, ../sass/_signup.sass */
+#signUpForm #userType li a.current {
+  background-color: #27a6ff;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 97, ../sass/_signup.sass */
+#signUpForm #userType li a img {
+  clear: both;
+}
+/* line 99, ../sass/_signup.sass */
+#signUpForm #userType li a span {
+  display: block;
+  line-height: 1em;
+}
+/* line 102, ../sass/_signup.sass */
+#signUpForm #userType li:last-child a {
+  border: none;
+}
+/* line 105, ../sass/_signup.sass */
+#signUpForm .privacy {
+  width: 99%;
+  background-color: #e9e9e9;
+}
+
+/* line 112, ../sass/_signup.sass */
+.control-group input {
+  width: 99%;
+  background-color: #e9e9e9;
+}
+/* line 115, ../sass/_signup.sass */
+.control-group input:focus {
+  background-color: white;
+}
+/* line 117, ../sass/_signup.sass */
+.control-group span.help-inline {
+  display: none;
+}
+/* line 120, ../sass/_signup.sass */
+.control-group.error input, .control-group.warning input, .control-group.success input {
+  background-color: white;
+}
+/* line 122, ../sass/_signup.sass */
+.control-group.error span.help-inline, .control-group.warning span.help-inline, .control-group.success span.help-inline {
+  display: block;
+  padding-left: 0;
+}
+
+/* line 127, ../sass/_signup.sass */
+label.checkbox input, label.checkbox span {
+  line-height: inherit;
+  height: 1.75em;
+}
+
+/* line 3, ../sass/_contact.sass */
+#contactForm {
+  *zoom: 1;
+  font-family: "Droid Sans", sans-serif;
+  padding: 60px 0;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#contactForm:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 8, ../sass/_contact.sass */
+#contactForm label {
+  font-size: 1.143em;
+  line-height: 1.75em;
+  color: #666666;
+}
+/* line 12, ../sass/_contact.sass */
+#contactForm .firstCol {
+  margin-left: 1.042%;
+  display: inline;
+  float: left;
+  width: 39.583%;
+  margin-right: 2.083%;
+}
+/* line 16, ../sass/_contact.sass */
+#contactForm .firstCol a {
+  color: #007ece;
+}
+/* line 18, ../sass/_contact.sass */
+#contactForm .firstCol a:hover {
+  color: #004e80;
+}
+/* line 21, ../sass/_contact.sass */
+#contactForm .firstCol p {
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+/* line 24, ../sass/_contact.sass */
+#contactForm .firstCol p em {
+  font-size: 1.286em;
+  line-height: 1.556em;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+}
+/* line 29, ../sass/_contact.sass */
+#contactForm .firstCol h2 {
+  font-family: "Droid Serif", serif;
+  font-size: 3.429em;
+  line-height: 1.167em;
+  letter-spacing: -3px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+/* line 37, ../sass/_contact.sass */
+#contactForm .secondCol {
+  display: inline;
+  float: left;
+  width: 47.917%;
+  margin-right: 2.083%;
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+}
+
+/* line 42, ../sass/_contact.sass */
+ul.xoxoLinks {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+/* line 47, ../sass/_contact.sass */
+ul.xoxoLinks li {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  margin-left: 11px;
+}
+/* line 7, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+ul.xoxoLinks li {
+  *display: inline;
+}
+/* line 50, ../sass/_contact.sass */
+ul.xoxoLinks li:first-child {
+  margin: 0;
+}
+/* line 52, ../sass/_contact.sass */
+ul.xoxoLinks li a {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(../images/social-icons-sprite.png);
+}
+/* line 58, ../sass/_contact.sass */
+ul.xoxoLinks li a.socTwitter {
+  background-position: 0 0;
+}
+/* line 60, ../sass/_contact.sass */
+ul.xoxoLinks li a.socFacebook {
+  background-position: -66px 0;
+}
+/* line 62, ../sass/_contact.sass */
+ul.xoxoLinks li a.socFlickr {
+  background-position: -132px 0;
+}
+/* line 64, ../sass/_contact.sass */
+ul.xoxoLinks li a.socVimeo {
+  background-position: -198px 0;
+}
+/* line 66, ../sass/_contact.sass */
+ul.xoxoLinks li a.socYoutube {
+  background-position: -264px 0;
+}
+/* line 68, ../sass/_contact.sass */
+ul.xoxoLinks li a.socRSS {
+  background-position: -330px 0;
+}
+/* line 70, ../sass/_contact.sass */
+ul.xoxoLinks li a:hover {
+  background-position-y: bottom;
+}
+
+/* line 3, ../sass/_error.sass */
+#errorPage {
+  *zoom: 1;
+  padding: 60px 0;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#errorPage:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 7, ../sass/_error.sass */
+#errorPage .leftCol {
+  display: inline;
+  float: left;
+  width: 39.583%;
+  margin-right: 2.083%;
+  padding-left: 8.333%;
+}
+/* line 11, ../sass/_error.sass */
+#errorPage .rightCol {
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+  display: inline;
+  float: left;
+  width: 39.583%;
+  margin-right: 2.083%;
+  padding-right: 8.333%;
+}
+/* line 16, ../sass/_error.sass */
+#errorPage h1 {
+  font-size: 5.143em;
+  line-height: 1.167em;
+  font-family: "Droid Serif", serif;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -o-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -khtml-border-radius: 70px;
+  border-radius: 70px;
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-style: italic;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+/* line 30, ../sass/_error.sass */
+#errorPage h2 {
+  font-size: 1.714em;
+  line-height: 1.167em;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  color: black;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+/* line 38, ../sass/_error.sass */
+#errorPage p {
+  font-size: 1em;
+  line-height: 2em;
+  font-family: "Droid Sans", sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* line 3, ../sass/_faq.sass */
+#faqPage {
+  *zoom: 1;
+  font-family: "Droid Sans", sans-serif;
+  padding: 40px 0;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#faqPage:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 8, ../sass/_faq.sass */
+#faqPage .leftCol {
+  display: inline;
+  float: left;
+  width: 64.583%;
+  margin-right: 2.083%;
+  margin-left: 1.042%;
+}
+/* line 12, ../sass/_faq.sass */
+#faqPage .leftCol h1 {
+  font-size: 3.429em;
+  line-height: 1.167em;
+  color: #333333;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+/* line 19, ../sass/_faq.sass */
+#faqPage .leftCol article {
+  border-bottom: 1px dotted #333333;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+/* line 23, ../sass/_faq.sass */
+#faqPage .leftCol article h2 {
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  letter-spacing: -1.5px;
+  position: relative;
+}
+/* line 28, ../sass/_faq.sass */
+#faqPage .leftCol article h2 a {
+  color: #333333;
+  font-size: 1.429em;
+  line-height: 1.4em;
+}
+/* line 31, ../sass/_faq.sass */
+#faqPage .leftCol article h2 a:hover {
+  color: #007ece;
+}
+/* line 33, ../sass/_faq.sass */
+#faqPage .leftCol article h2 span {
+  background: #333333;
+  color: white;
+  font-family: "Droid Sans", sans-serif;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  font-size: 1.143em;
+  line-height: 1.75em;
+  font-style: normal;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  position: relative;
+  top: -3px;
+}
+/* line 7, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+#faqPage .leftCol article h2 span {
+  *display: inline;
+}
+/* line 48, ../sass/_faq.sass */
+#faqPage .leftCol article footer {
+  display: none;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+/* line 52, ../sass/_faq.sass */
+#faqPage .leftCol article footer.visible {
+  display: block;
+}
+/* line 54, ../sass/_faq.sass */
+#faqPage .leftCol article footer p {
+  font-size: 1em;
+  line-height: 2em;
+  color: black;
+  font-family: "Droid Sans", sans-serif;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+/* line 61, ../sass/_faq.sass */
+#faqPage .rightCol {
+  display: inline;
+  float: left;
+  width: 22.917%;
+  margin-right: 2.083%;
+  display: inline;
+  float: right;
+  margin-right: 1.042%;
+  #margin-left: -20px;
+  float: right;
+}
+/* line 66, ../sass/_faq.sass */
+#faqPage .rightCol h2 {
+  font-size: 2.143em;
+  line-height: 1.4em;
+  color: #333333;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  letter-spacing: -2px;
+  margin-bottom: 15px;
+}
+/* line 74, ../sass/_faq.sass */
+#faqPage .rightCol p {
+  margin-bottom: 15px;
+}
+/* line 77, ../sass/_faq.sass */
+#faqPage .rightCol ol {
+  border-bottom: 1px dotted black;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+/* line 82, ../sass/_faq.sass */
+#faqPage .rightCol ol li {
+  margin-bottom: 15px;
+  font-family: "Droid Sans", sans-serif;
+  list-style-position: inside;
+  list-style-type: decimal-leading-zero;
+}
+/* line 87, ../sass/_faq.sass */
+#faqPage .rightCol ol li a {
+  color: #007ece;
+  font-style: italic;
+  font-family: "Droid Serif", serif;
+}
+/* line 91, ../sass/_faq.sass */
+#faqPage .rightCol ol li a:hover {
+  color: #004e80;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  /* line 3, ../sass/_responsive.sass */
+  html, body {
+    background: white;
+    font-family: "Droid Sans", sans-serif;
+  }
+
+  /* line 7, ../sass/_responsive.sass */
+  .navbar {
+    display: block;
+    z-index: 10000;
+    position: relative;
+  }
+
+  /* line 12, ../sass/_responsive.sass */
+  #header, #topMenu {
+    display: none;
+  }
+
+  /* line 15, ../sass/_responsive.sass */
+  .responsiveSignUp {
+    display: block;
+    text-align: center;
+    background-color: #fffce5;
+    border-bottom: 1px solid #ffe795;
+    padding: 10px 0;
+    position: relative;
+    z-index: 10;
+    margin-top: -20px;
+  }
+  /* line 24, ../sass/_responsive.sass */
+  .responsiveSignUp .btn {
+    width: 85%;
+  }
+
+  /* line 28, ../sass/_responsive.sass */
+  #content .threeColumns {
+    display: inline;
+    float: left;
+    width: 47.917%;
+    margin-right: 2.083%;
+  }
+  /* line 30, ../sass/_responsive.sass */
+  #content .threeColumns.firstCol {
+    margin-left: 0;
+  }
+  /* line 32, ../sass/_responsive.sass */
+  #content .threeColumns.lastCol {
+    float: left;
+  }
+
+  /* line 35, ../sass/_responsive.sass */
+  #facebook-line {
+    display: none;
+  }
+
+  /* line 39, ../sass/_responsive.sass */
+  .videoAndAds .blogPosts {
+    display: inline;
+    float: left;
+    width: 47.917%;
+    margin-right: 2.083%;
+    margin-left: 0;
+  }
+  /* line 42, ../sass/_responsive.sass */
+  .videoAndAds .videoPP {
+    display: inline;
+    float: left;
+    width: 47.917%;
+    margin-right: 2.083%;
+    margin-top: 40px;
+  }
+  /* line 45, ../sass/_responsive.sass */
+  .videoAndAds .videoPP .youTubeVideo {
+    height: 250px;
+  }
+
+  /* line 49, ../sass/_responsive.sass */
+  #footer footer {
+    background: none;
+    padding: 0;
+  }
+
+  /* line 55, ../sass/_responsive.sass */
+  #faqPage .leftCol, #faqPage .rightCol {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+    margin-left: 0;
+  }
+  /* line 58, ../sass/_responsive.sass */
+  #faqPage .leftCol {
+    margin-bottom: 30px;
+  }
+  /* line 60, ../sass/_responsive.sass */
+  #faqPage .leftCol h1 {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  /* line 64, ../sass/_responsive.sass */
+  #faqPage .rightCol h2 {
+    text-align: center;
+  }
+
+  /* line 68, ../sass/_responsive.sass */
+  #contactForm {
+    padding: 30px 0;
+  }
+  /* line 70, ../sass/_responsive.sass */
+  #contactForm .firstCol, #contactForm .secondCol {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+  }
+  /* line 72, ../sass/_responsive.sass */
+  #contactForm .firstCol h2, #contactForm .secondCol h2 {
+    font-size: 1.714em;
+    line-height: 1.167em;
+    letter-spacing: 0;
+  }
+  /* line 75, ../sass/_responsive.sass */
+  #contactForm .firstCol {
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+
+  /* line 81, ../sass/_responsive.sass */
+  #signUpForm .sevenColumns {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+  }
+  /* line 83, ../sass/_responsive.sass */
+  #signUpForm .fiveColumns {
+    display: none;
+  }
+
+  /* line 87, ../sass/_responsive.sass */
+  #errorPage .leftCol {
+    display: inline;
+    float: left;
+    width: 47.917%;
+    margin-right: 2.083%;
+    margin-left: 0;
+    padding: 0;
+  }
+  /* line 91, ../sass/_responsive.sass */
+  #errorPage .rightCol {
+    float: left;
+    display: inline;
+    float: left;
+    width: 47.917%;
+    margin-right: 2.083%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 99, ../sass/_responsive.sass */
+  html, body {
+    background: white;
+    font-family: "Droid Sans", sans-serif;
+  }
+
+  /* line 103, ../sass/_responsive.sass */
+  .navbar {
+    display: block;
+    z-index: 10000;
+    position: relative;
+  }
+
+  /* line 108, ../sass/_responsive.sass */
+  #header, #topMenu {
+    display: none;
+  }
+
+  /* line 111, ../sass/_responsive.sass */
+  .responsiveSignUp {
+    display: block;
+    text-align: center;
+    background-color: #fffce5;
+    border-bottom: 1px solid #ffe795;
+    padding: 10px 0;
+    position: relative;
+    z-index: 10;
+    margin-top: -20px;
+  }
+  /* line 120, ../sass/_responsive.sass */
+  .responsiveSignUp .btn {
+    width: 85%;
+  }
+
+  /* line 123, ../sass/_responsive.sass */
+  #facebook-line {
+    display: none;
+  }
+
+  /* line 126, ../sass/_responsive.sass */
+  #topBanner {
+    margin-top: 20px;
+  }
+  /* line 128, ../sass/_responsive.sass */
+  #topBanner .quote {
+    font-family: "Droid Sans", sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
+  }
+
+  /* line 134, ../sass/_responsive.sass */
+  #content .threeColumns {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+  }
+
+  /* line 138, ../sass/_responsive.sass */
+  .videoAndAds .blogPosts {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+  }
+  /* line 140, ../sass/_responsive.sass */
+  .videoAndAds .videoPP {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+    margin-top: 30px;
+  }
+  /* line 143, ../sass/_responsive.sass */
+  .videoAndAds .videoPP .youTubeVideo {
+    height: 200px;
+  }
+
+  /* line 147, ../sass/_responsive.sass */
+  #footer footer {
+    background: none;
+    padding: 0;
+  }
+
+  /* line 153, ../sass/_responsive.sass */
+  #faqPage .leftCol, #faqPage .rightCol {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+    margin-left: 0;
+  }
+  /* line 156, ../sass/_responsive.sass */
+  #faqPage .leftCol {
+    margin-bottom: 30px;
+  }
+  /* line 158, ../sass/_responsive.sass */
+  #faqPage .leftCol h1 {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  /* line 161, ../sass/_responsive.sass */
+  #faqPage .leftCol h2 {
+    font-size: 0.929em;
+    line-height: 2.154em;
+  }
+  /* line 164, ../sass/_responsive.sass */
+  #faqPage .rightCol h2 {
+    text-align: center;
+  }
+
+  /* line 168, ../sass/_responsive.sass */
+  #contactForm {
+    padding: 30px 0;
+  }
+  /* line 170, ../sass/_responsive.sass */
+  #contactForm .firstCol, #contactForm .secondCol {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+  }
+  /* line 172, ../sass/_responsive.sass */
+  #contactForm .firstCol h2, #contactForm .secondCol h2 {
+    font-size: 1.714em;
+    line-height: 1.167em;
+    letter-spacing: 0;
+  }
+  /* line 175, ../sass/_responsive.sass */
+  #contactForm .firstCol {
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+  /* line 178, ../sass/_responsive.sass */
+  #contactForm .firstCol h2 {
+    text-align: center;
+  }
+
+  /* line 182, ../sass/_responsive.sass */
+  #signUpForm .sevenColumns {
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+  }
+  /* line 184, ../sass/_responsive.sass */
+  #signUpForm .fiveColumns {
+    display: none;
+  }
+
+  /* line 187, ../sass/_responsive.sass */
+  .xoxoLinks {
+    display: none;
+  }
+
+  /* line 191, ../sass/_responsive.sass */
+  #errorPage .leftCol {
+    display: none;
+  }
+  /* line 193, ../sass/_responsive.sass */
+  #errorPage .rightCol {
+    float: left;
+    display: inline;
+    float: left;
+    width: 97.917%;
+    margin-right: 2.083%;
+    padding: 0;
+  }
+}

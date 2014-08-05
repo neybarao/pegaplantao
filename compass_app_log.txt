@@ -1,0 +1,98 @@
+2012-01-24 18:58:47     error sass/style.sass (Line 2: File to import not found or unreadable: partials/base.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 18:58:47    create stylesheets/style.css 
+2012-01-24 18:58:49     error sass/style.sass (Line 14: Mixin html5-boilerplate-normalize takes 1 argument but 11 were passed.)
+2012-01-24 18:58:49 overwrite stylesheets/style.css 
+2012-01-24 19:09:21     error sass/style.sass (Line 14: Mixin html5-boilerplate-normalize takes 1 argument but 11 were passed.)
+2012-01-24 19:09:22 overwrite stylesheets/style.css 
+2012-01-24 19:12:04     error sass/style.sass (Line 19: File to import not found or unreadable: susy.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:12:04 overwrite stylesheets/style.css 
+2012-01-24 19:13:02     error sass/style.sass (Line 19: File to import not found or unreadable: susy.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:13:02 identical stylesheets/style.css 
+2012-01-24 19:13:06     error sass/style.sass (Line 19: File to import not found or unreadable: susy.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:13:06 identical stylesheets/style.css 
+2012-01-24 19:15:07     error sass/style.sass (Line 19: File to import not found or unreadable: susy.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:15:07 identical stylesheets/style.css 
+2012-01-24 19:16:45     error sass/style.sass (Line 35: Invalid CSS after "...d Serif', serif": expected expression (e.g. 1px, bold), was ";")
+2012-01-24 19:16:46 overwrite stylesheets/style.css 
+2012-01-24 19:23:14     error sass/style.sass (Line 19: File to import not found or unreadable: susy.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:23:14 overwrite stylesheets/style.css 
+2012-01-24 19:25:38     error sass/style.sass (Line 27: File to import not found or unreadable: hashgrid.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:25:38 overwrite stylesheets/style.css 
+2012-01-24 19:25:52     error sass/style.sass (Line 14: Mixin html5-boilerplate-normalize takes 1 argument but 11 were passed.)
+2012-01-24 19:25:52 overwrite stylesheets/style.css 
+2012-01-24 19:26:27     error sass/style.sass (Line 19: File to import not found or unreadable: susy.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:26:27 overwrite stylesheets/style.css 
+2012-01-24 19:27:02     error sass/style.sass (Line 19: File to import not found or unreadable: susy.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:27:02 overwrite stylesheets/style.css 
+2012-01-24 19:27:02     error sass/style.sass (Line 19: File to import not found or unreadable: susy.
+Load paths:
+  /Users/neyricardo/Sites/WEB/pegaplantao/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  Compass::SpriteImporter)
+2012-01-24 19:27:02 overwrite stylesheets/style.css 

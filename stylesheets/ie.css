@@ -1,0 +1,33 @@
+/* line 10, ../sass/ie.scss */
+#grid {
+  /* Dimensions - same width as your grid with gutters */
+  width: 970px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -480px;
+  z-index: 10000;
+}
+/* line 25, ../sass/ie.scss */
+#grid div.vert {
+  width: 59px;
+  border: solid rgba(0, 176, 178, 0.3);
+  border-width: 0 1px;
+  margin-right: 19px;
+}
+/* line 30, ../sass/ie.scss */
+#grid div.first-line {
+  margin-left: 9px;
+}
+/* line 32, ../sass/ie.scss */
+#grid div.horiz {
+  height: 5px;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  margin: 0;
+  padding: 0;
+}
+/* line 37, ../sass/ie.scss */
+#grid div.grid-1 div.vert {
+  /* Vertical grid line colour for grid 1 */
+  border-color: rgba(0, 176, 178, 0.3);
+}

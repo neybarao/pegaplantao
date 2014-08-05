@@ -1,0 +1,134 @@
+// SIGNUP FORM
+
+#signUpForm
+  padding: 30px 0
+  +sans-family
+  
+  a
+    color: $link-color
+    &:hover
+      color: $link-hover-color
+  
+  label
+    +adjust-font-size-to(16px)
+    color: #666
+  
+  .container
+    padding-bottom: 30px
+    margin-bottom: 30px
+    border-bottom: 1px solid #f1f1f1
+  
+  .sevenColumns
+    +columns(7)
+    +alpha
+  
+  .fiveColumns
+    +columns(5)
+    +omega
+  
+  .twelveColumns
+    +columns(12)
+    +alpha
+  
+  .icon
+    position: relative
+    background: #008aff
+    width: 60px
+    height: 60px
+    line-height: 60px
+    vertical-align: baseline
+    text-align: center
+    float: right
+    img
+      line-height: 60px
+      vertical-align: middle
+  .tip
+    position: relative
+    background: #f1f1f1
+    padding: 15px
+    color: #666
+    float: right
+    width: 270px
+    p
+      +sans-family
+      +adjust-font-size-to(13px)
+      margin-bottom: 10px
+  
+  h2
+    color: #444
+    +serif-family
+    font-style: italic
+    +adjust-font-size-to(20px)
+    margin-bottom: 15px
+  
+  h3
+    color: #444
+    +serif-family
+    font-style: italic
+    +adjust-font-size-to(18px)
+    margin-bottom: 15px
+  
+  #userType
+    margin-bottom: 10px
+    +clearfix
+    li
+      position: relative
+      display: block
+      float: left
+      width: 20%
+      a
+        display: block
+        padding: 10px
+        height: 115px
+        border-right: 1px solid #e2e2e2
+        background-color: #eee
+        +sans-family
+        +adjust-font-size-to(12px)
+        color: #7f7f7f
+        text-align: center
+        text-decoration: none
+        &:hover
+          background: #e1e1e1
+        &.current
+          background-color: #27a6ff
+          color: white
+          text-transform: uppercase
+          font-weight: bold
+        img
+          clear: both
+        span
+          display: block
+          line-height: 1em
+    li:last-child a
+      border: none
+  
+  .privacy
+    width: 99%
+    background-color: #e9e9e9
+  
+
+
+.control-group
+  input
+    width: 99%
+    background-color: #e9e9e9
+    &:focus
+      background-color: white
+  span.help-inline
+    display: none
+  &.error, &.warning, &.success
+    input
+      background-color: white
+    span.help-inline
+      display: block
+      padding-left: 0
+
+label.checkbox
+  input, span
+    line-height: inherit
+    height: 1.75em
+
+
+
+
+

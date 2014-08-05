@@ -1,0 +1,153 @@
+// This file must be imported before loading html5-boilerplate
+
+// base
+$base-font-family: unquote("sans-serif")
+$font-color: #333333
+
+// Links
+$link-color: #007ece
+$link-hover-color: #004e80
+$link-visited-color: #6b6b6b
+
+// Lists
+$list-left-margin: 40px
+
+
+// Fonts --------------------------------------------------------------
+
+=sans-family
+  font-family: 'Droid Sans', sans-serif
+
+=serif-family
+  font-family: 'Droid Serif', serif
+
+// Imports -------------------------------------------------------------------
+@import "susy"
+@import "compass/reset"
+@import "compass/css3"
+@import "compass/typography/vertical_rhythm"
+@import "compass/typography/text/replacement"
+@import "compass/typography/lists"
+@import "compass/utilities/general/clearfix"
+//Imports HASHGRID (Grid Debugging)
+@import "hashgrid"
+
+
+// Grid ----------------------------------------------------------------------
+$total-cols: 12
+$col-width: 60px
+$gutter-width: 20px
+$side-gutter-width: 10px
+$show-grid-backgrounds: false
+$grid-background-column-color: rgba(#ccc,.2)
+$from-direction: left
+
+
+// Vertical Rhythm ----------------------------------------------------------
+$base-font-size: 14px
+$base-line-height: 14px
+$default-rhythm-border-style: solid
+$ie-font-ratio: 14px / 100%
+$font-unit: 1em
+$base-leader: ($base-line-height - $base-font-size) * 1em / $base-font-size
+
+
+// Colors --------------------------------------------------------------
+$base: #000
+$alt: #f7e897
+
+a
+  color: #4040ff
+  &:hover
+    text-decoration: none
+
+
+/* Selected Text --------------------------------------------------------------
+=accessible-color($background: white)
+  @if lightness($background) >= 65%
+    color: $base
+  @else
+    color: white
+
+\::-moz-selection
+  +accessible-color($alt)
+  background: $alt
+  text-shadow: none
+
+\::selection
+  +accessible-color($alt)
+  background: $alt
+  text-shadow: none  
+
+
+// Forms --------------------------------------------------------------
+input, textarea, select
+  outline: none
+  
+  
+// OTHER MIXINS --------------------------------------------------------------
+// Mixins set here will be available in defaults, screen, print and IE
+// Or anywhere you import either base.sass or defaults.sass
+@mixin debug
+  background-color: rgba(red,0.6)
+  
+@mixin select($width)
+  +margin-leader(1)
+  background: #e8e8e8 url(../images/select-arrow-bg.jpg) right center no-repeat
+  -webkit-appearance: none
+  border: 1px solid #a9a9a9
+  height: 28px
+  width: $width
+  +border-radius(1)
+  padding-left: 10px
+
+@mixin steps($child, $unit)    
+  background: url(../images/checkout-steps-bg.jpg) 0 $unit no-repeat
+  li:nth-child(#{$child})
+    small, span
+      color: #000
+
+@mixin label($fontsize: 14px, $lineheight: 2)
+  +adjust-font-size-to($fontsize)
+  +adjust-leading-to($lineheight)
+  font-family: 'Geogrotesque-SemiBoldItalic'
+  text-transform: uppercase
+  display: block
+
+@mixin input($height: "30px", $width: "100%")
+  +adjust-font-size-to(12px)
+  margin: 0
+  padding: 0 10px
+  +margin-leader(1)
+  height: $height
+  width: $width
+  display: block
+  border: none
+  +apply-side-rhythm-border(bottom, 1px)
+  border-color: #999
+  background: #e8e8e8
+  font-weight: bold
+
+@mixin button($width, $lineheight, $fontsize)
+  +adjust-font-size-to($fontsize)
+  +adjust-leading-to($lineheight)
+  border: none
+  +apply-side-rhythm-border(top, 1px)
+  +apply-side-rhythm-border(bottom, 1px)
+  border-color: #bba472
+  float: right
+  display: block
+  width: $width
+  background: #a4894e
+  text-transform: uppercase
+  color: #000
+  font-family: 'Geogrotesque-SemiBold'
+  cursor: pointer
+  margin: 0
+
+@mixin small($fontsize: 13px, $lineheight: 2)
+  +adjust-font-size-to($fontsize)
+  +adjust-leading-to($lineheight)
+  font-family: 'Geogrotesque-RegularItalic'
+  text-transform: uppercase
+  display: block

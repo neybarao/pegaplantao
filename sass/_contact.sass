@@ -1,0 +1,74 @@
+// CONTACT FORM
+
+#contactForm
+  +pie-clearfix
+  +sans-family
+  padding: 60px 0
+  
+  label
+    +adjust-font-size-to(16px)
+    color: #666
+  
+  .firstCol
+    +alpha
+    +columns(5)
+    
+    a
+      color: $link-color
+      &:hover
+        color: $link-hover-color
+    
+    p
+      margin-bottom: 10px
+      line-height: 1.5em
+      em
+        +adjust-font-size-to(18px)
+        +serif-family
+        font-style: italic
+    
+    h2
+      +serif-family
+      +adjust-font-size-to(48px)
+      letter-spacing: -3px
+      font-style: italic
+      margin-bottom: 10px
+    
+  
+  .secondCol
+    +columns(6)
+    +omega
+
+
+ul.xoxoLinks
+  border-top: 1px solid #f1f1f1
+  border-bottom: 1px solid #f1f1f1
+  margin: 20px 0
+  padding: 20px 0
+  li
+    +inline-block
+    margin-left: 11px
+    &:first-child
+      margin: 0
+    a
+      +hide-text
+      display: block
+      width: 50px
+      height: 50px
+      background: url(../images/social-icons-sprite.png)
+      &.socTwitter
+        background-position: 0 0
+      &.socFacebook
+        background-position: -66px 0
+      &.socFlickr
+        background-position: -132px 0
+      &.socVimeo
+        background-position: -198px 0
+      &.socYoutube
+        background-position: -264px 0
+      &.socRSS
+        background-position: -330px 0
+      &:hover
+        background-position-y: bottom
+
+
+

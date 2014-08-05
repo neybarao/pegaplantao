@@ -1,0 +1,375 @@
+// Here's where we define some default constants
+@import partials/base
+
+// Then we'll import the compass extension
+//@import html5-boilerplate
+
+// Now, you can simply include everything
+// (except print and helpers) by uncommeting this line
+//@include html5-boilerplate;
+
+// Or, you can pick and choose only the sections
+// you want by using the this include
+
+//+html5-boilerplate-normalize(html5, base, selection, links, typography, lists, images, svg, figures, forms, tables)
+
+// Or, you can import the "overrides" partial if
+// you want more control over individual mixins
+//@import "partials/overrides";
+
+// Finally, put your own styles in these partials
+// and add more as needed (i.e. forms, tables, nav)
+@import partials/fonts
+@import partials/page
+
+// Helpers classes should come second-to-last
+
+//+html5-boilerplate-helpers(ir, hidden, visuallyhidden, invisible, clearfix)
+
+// Media should come last
+@import partials/media
+
+
+/* Layout ------------------------------------------------------------------
+
+html, body
+  font-size: $base-font-size
+  background: white
+a
+  position: relative
+
+.container
+  +pie-clearfix
+  max-width: 960px
+  margin: 0 auto
+
+.navbar
+  display: none
+
+// HEADER
+.responsiveSignUp
+  display: none
+  
+#header
+  background-color: #f6f6f6
+  color: #666
+  
+  .topSelector
+    +columns(12)
+    +alpha
+    
+    
+    ul
+      float: right
+      position: relative
+      li
+        display: block
+        float: left
+        +sans-family
+        margin: 0
+        padding: 0
+        margin-left: 1px
+        height: 26px
+        span
+          display: block
+          padding: 6px 10px
+          +adjust-font-size-to(10px)
+        a
+          +adjust-font-size-to(10px)
+          display: block
+          width: 80px
+          color: white
+          text-align: center
+          text-decoration: none
+          padding: 6px 0
+          &.med
+            background-color: #008aff
+            &:hover
+              background-color: darken(#008aff, 5%)
+          &.enf
+            background-color: #0074d6
+            &:hover
+              background-color: darken(#0074d6, 5%)
+          &.anun
+            background-color: #0063b6
+            &:hover
+              background-color: darken(#0063b6, 5%)
+          &.other
+            background-color: #004d8e
+            &:hover
+              background-color: darken(#004d8e, 5%)
+
+    ul li a.signUpCallToAction
+      display: block
+      float: right
+      +sans-family
+      +adjust-font-size-to(18px)
+      height: 32px
+      line-height: 30px
+      color: white
+      background-color: #ff9c00
+      padding: 0 12px
+      margin-bottom: -8px
+      text-decoration: none
+      width: auto
+      &:hover
+        background-color: darken(#ff9c00, 5%)
+      span
+        display: inline
+        +adjust-font-size-to(18px)
+        height: 20px
+        line-height: 30px
+        color: #be6800
+        padding: 0
+        padding-right: 10px
+        margin-right: 3px
+        border-right: 1px solid #c47300
+
+// TOP MENU
+
+#topMenu
+  .logoPP
+    +pie-clearfix
+    +columns(3)
+    +alpha
+  
+  .mainMenu
+    +pie-clearfix
+    +columns(9)
+    +omega
+  
+  .container
+    margin-top: 10px
+    border-bottom: 1px solid #f1f1f1
+    padding-bottom: 10px
+
+#topMenu ul
+  float: right
+  +sans-family
+  li
+    +inline-block
+    margin-left: 15px
+    line-height: 63px
+    a
+      +adjust-font-size-to(13px)
+      color: #a6a6a6
+      padding: 10px 0
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+        color: $link-hover-color
+      &.current
+        color: $link-color
+
+#topMenu h1
+  +hide-text
+  width: 190px
+  height: 63px
+  background: url('../images/logo-small.png') no-repeat center center
+  float: left
+  //background-size: 100% 100%
+  //-webkit-background-size: 100% 100%
+  //-o-background-size: 100% 100%
+  //-khtml-background-size: 100% 100%
+  //-moz-background-size: 100% 100%
+
+
+// TOP BANNER
+
+#topBanner
+  margin-top: 30px
+  .quote
+    +serif-family
+    +adjust-font-size-to(22px)
+    text-align: center
+    font-style:  italic
+    margin-bottom: 30px
+  .slideshow
+    +columns(12)
+    +alpha
+    padding-bottom: 30px
+    border-bottom: 1px solid #f1f1f1
+
+
+// CONTENT
+
+#content
+  +pie-clearfix
+  padding-bottom: 30px
+  +sans-family
+  .threeColumns
+    +columns(3)
+    &.firstCol
+      +alpha
+    &.lastCol
+      +omega
+  .sixColumns
+    +columns(6)
+    &.firstCol
+      +alpha
+    &.lastCol
+      +omega
+  .twelveColumns
+    +columns(12)
+    +alpha
+  h2
+    +serif-family
+    font-style:  italic
+    +adjust-font-size-to(20px)
+    margin-top: 20px
+    margin-bottom: 20px
+    padding-bottom: 10px
+    border-bottom: 1px solid #f1f1f1
+    color: #333
+  p
+    +adjust-font-size-to(14px)
+    line-height: 1.5em
+    +trailer(1)
+  .advantage
+    +pie-clearfix
+    padding: 30px 0
+    img
+      margin-bottom: 10px
+    h2
+      border: none
+      margin: 0
+      color: #007ece
+    p
+      +sans-family
+      +adjust-font-size-to(12px)
+      line-height: 1.5em
+      +trailer(1)
+    i
+      font-style: italic
+      +serif-family
+  
+  .talkingAboutUs
+    +columns(12)
+    +alpha
+
+.btn
+  +sans-family
+
+.videoAndAds
+  +pie-clearfix
+  padding: 30px 0
+  border-top: 1px solid #f1f1f1
+  .blogPosts
+    +columns(4)
+    +alpha
+    h2
+      border: none
+      margin: 0 !important
+    .blogPostCell
+      border-bottom: 1px solid #e9e9e9
+      +serif-family
+      font-style: italic
+      +pie-clearfix
+      padding: 15px 0
+      a
+        display: block
+        color: #333
+        &:hover
+          color: $link-color
+        p
+          +adjust-font-size-to(14px)
+          line-height: 1em
+        img
+          float: left
+          margin-right: 15px
+    
+  .videoPP
+    +columns(8)
+    +omega
+    .youTubeVideo
+      width: 100%
+      height: 345px
+
+
+
+//FACEBOOK line
+
+#facebook-line
+  background: #f2f2f2
+  border-top: 1px solid #e9e9e9
+  padding: 15px 0
+  
+  .facebook-likebox
+    +columns(12)
+    +alpha
+
+
+// FOOTER
+
+#footer
+  padding: 20px 0
+  background-color: #323232
+  border-top: 4px solid #1c1c1c
+  
+  footer
+    +columns(12)
+    +alpha
+    padding: 10px 0
+    padding-left: 50px
+    background: url('../images/footer-logo.png') left center no-repeat
+    color: #858585
+    p
+      margin: 0
+      +sans-family
+      +adjust-font-size-to(12px)
+      line-height: 1.1em
+    ul
+      li
+        +inline-block
+        margin-right: 10px
+        a
+          color: #2998ff
+          text-decoration: underline
+          +sans-family
+          +adjust-font-size-to(11px)
+          line-height: 1em
+          &:hover
+            color: #99ceff
+
+.useterms
+  +container
+  
+  .usetermsContent
+    +sans-family
+    +columns(12)
+    +alpha
+    
+    h1
+      +serif-family
+      font-style:  italic
+      +adjust-font-size-to(20px)
+      margin-top: 20px
+      margin-bottom: 20px
+      padding-bottom: 10px
+      color: #333
+    p
+      margin-bottom: 20px
+
+
+.control-group
+  textarea
+    background-color: #e9e9e9
+    width: 99%
+    &:focus
+      background-color: white
+
+.alignCenter
+  text-align: center
+
+@import added-later
+@import signup
+@import contact
+@import error
+@import faq
+
+@import responsive
+//@import hashgrid
+
+
+
+

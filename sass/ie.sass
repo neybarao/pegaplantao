@@ -1,0 +1,39 @@
+// Grid Config
+$first-line: 10px
+$grid: 960px
+$column: 60px
+$gutter: 20px
+$leading: 6px
+$horiz-grid-color: rgba(red, 0.3)
+$vert-grid-color: rgba(#00b0b2, 0.3)
+
+#grid
+  /* Dimensions - same width as your grid with gutters
+  width: $grid + 10
+  // Grid (left-aligned)
+  // position: absolute
+  // top: 0
+  // left: 0
+  // Grid (centered)
+  position: absolute
+  top: 0
+  left: 50%
+  margin-left: -$grid / 2
+  // margin-left: -480px
+  z-index: 10000
+  div
+    &.vert
+      width: $column - 1px
+      border: solid $vert-grid-color
+      border-width: 0 1px
+      margin-right: $gutter - 1px
+    &.first-line
+      margin-left: $first-line - 1px
+    &.horiz
+      height: $leading - 1px
+      border-bottom: 1px solid $horiz-grid-color
+      margin: 0
+      padding: 0
+    &.grid-1 div.vert
+      /* Vertical grid line colour for grid 1
+      border-color: $vert-grid-color
