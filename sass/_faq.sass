@@ -1,0 +1,113 @@
+// FAQ PAGE
+
+#faqPage
+  +pie-clearfix
+  +sans-family
+  padding: 40px 0
+  
+  .leftCol
+    +columns(8)
+    +alpha
+    
+    h1
+      +adjust-font-size-to(48px)
+      color: #333
+      +serif-family
+      font-style: italic
+      padding-bottom: 20px
+    
+    article
+      border-bottom: 1px dotted #333
+      padding-bottom: 15px
+      margin-bottom: 15px
+      h2
+        +serif-family
+        font-style: italic
+        letter-spacing: -1.5px
+        position: relative
+        a
+          color: #333
+          +adjust-font-size-to(20px)
+          &:hover
+            color: $link-color
+        span
+          background: #333
+          color: white
+          +sans-family
+          +inline-block
+          +adjust-font-size-to(16px)
+          font-style: normal
+          margin-right: 5px
+          width: 30px
+          height: 30px
+          line-height: 30px
+          text-align: center
+          +border-radius(15px)
+          position: relative
+          top: -3px
+      footer
+        display: none
+        padding-left: 40px
+        padding-top: 20px
+        &.visible
+          display: block
+        p
+          +adjust-font-size-to(14px)
+          color: black
+          +sans-family
+          margin-bottom: 10px
+          line-height: 1.5em
+  
+  .rightCol
+    +columns(3)
+    +omega
+    float: right
+    
+    h2
+      +adjust-font-size-to(30px)
+      color: #333
+      +serif-family
+      font-style: italic
+      letter-spacing: -2px
+      margin-bottom: 15px
+    
+    p
+      margin-bottom: 15px
+    
+    ol
+      border-bottom: 1px dotted black
+      padding-bottom: 15px
+      margin-bottom: 15px
+      width: 100%
+      li
+        margin-bottom: 15px
+        +sans-family
+        list-style-position: inside
+        list-style-type: decimal-leading-zero
+        a
+          color: $link-color
+          font-style: italic
+          +serif-family
+          &:hover
+            color: $link-hover-color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

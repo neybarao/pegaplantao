@@ -1,0 +1,61 @@
+.fan_box a:hover {
+  text-decoration:none;
+}
+
+.fan_box .full_widget {
+  height:100px!important;
+  border:0!important;
+  position:relative;
+  background-color:transparent!important;
+}
+
+.fan_box .connect_top {
+  background:none!important;
+  padding:0!important;
+}
+
+.fan_box .connections {
+  border:0!important;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-weight:700;
+  color:#666;
+  padding:0!important;
+}
+
+span.total {
+  color:#0065cc;
+  font-weight:700;
+  margin-left:70px;
+  margin-top:5px;
+  position:absolute;
+}
+
+.fan_box .connections .connections_grid {
+  padding-top:30px!important;
+}
+
+.fan_box .connections_grid .grid_item {
+  padding:0 2px 2px 0 !important;
+}
+
+.fan_box .connections_grid .grid_item .name {
+  display: none!important;
+}
+
+.fan_box .connect_widget {
+  position:absolute;
+  top:0;
+}
+
+.fan_box .connect_widget .connect_widget_interactive_area {
+margin:0!important;
+}
+
+.fan_box .profileimage,.fan_box .name_block,.connect_widget_connected_text {
+display:none;
+}
+
+.fan_box .connect_action,.fan_box .connect_widget td.connect_widget_vertical_center {
+padding:0!important;
+}

@@ -1,0 +1,197 @@
+// Tablets
+@media screen and (max-width: 768px) and (min-width: 481px)
+  html, body
+    background: white
+    +sans-family
+    
+  .navbar
+    display: block
+    z-index: 10000
+    position: relative
+
+  #header, #topMenu
+    display: none
+  
+  .responsiveSignUp
+    display: block
+    text-align: center
+    background-color: #fffce5
+    border-bottom: 1px solid #ffe795
+    padding: 10px 0
+    position: relative
+    z-index: 10
+    margin-top: -20px
+    .btn
+      width: 85%
+  
+  #content
+    .threeColumns
+      +columns(6)
+      &.firstCol
+        margin-left: 0
+      &.lastCol
+        float: left
+  
+  #facebook-line
+    display: none
+  
+  .videoAndAds
+    .blogPosts
+      +columns(6)
+      margin-left: 0
+    .videoPP
+      +columns(6)
+      margin-top: 40px
+      .youTubeVideo
+        height: 250px
+
+  #footer
+    footer
+      background: none
+      padding: 0
+  
+  //FAQ --------------
+  #faqPage
+    .leftCol, .rightCol
+      +columns(12)
+      margin-left: 0
+    .leftCol
+      margin-bottom: 30px
+      h1
+        +adjust-font-size-to(28px)
+        text-align: center
+    .rightCol
+      h2
+        text-align: center
+
+  //LOGIN e CONTACT
+  #contactForm
+    padding: 30px 0
+    .firstCol, .secondCol
+      +columns(12)
+      h2
+        +adjust-font-size-to(24px)
+        letter-spacing: 0
+    .firstCol
+      margin-bottom: 50px
+      margin-left: 0
+
+
+  #signUpForm
+    .sevenColumns
+      +columns(12)
+    .fiveColumns
+      display: none
+  
+  #errorPage
+    .leftCol
+      +columns(6)
+      margin-left: 0
+      padding: 0
+    .rightCol
+      float: left
+      +columns(6)
+      padding: 0
+
+// Smartphones
+@media screen and (max-width: 480px)
+
+  html, body
+    background: white
+    +sans-family
+
+  .navbar
+    display: block
+    z-index: 10000
+    position: relative
+
+  #header, #topMenu
+    display: none
+  
+  .responsiveSignUp
+    display: block
+    text-align: center
+    background-color: #fffce5
+    border-bottom: 1px solid #ffe795
+    padding: 10px 0
+    position: relative
+    z-index: 10
+    margin-top: -20px
+    .btn
+      width: 85%
+  
+  #facebook-line
+    display: none
+  
+  #topBanner
+    margin-top: 20px
+    .quote
+      +sans-family
+      font-style: normal
+      font-size: 1.2em
+  
+  #content
+    .threeColumns
+      +columns(12)
+  
+  .videoAndAds
+    .blogPosts
+      +columns(12)
+    .videoPP
+      +columns(12)
+      margin-top: 30px
+      .youTubeVideo
+        height: 200px
+  
+  #footer
+    footer
+      background: none
+      padding: 0
+  
+  //FAQ --------------
+  #faqPage
+    .leftCol, .rightCol
+      +columns(12)
+      margin-left: 0
+    .leftCol
+      margin-bottom: 30px
+      h1
+        +adjust-font-size-to(28px)
+        text-align: center
+      h2
+        +adjust-font-size-to(13px)
+    .rightCol
+      h2
+        text-align: center
+  
+  //LOGIN e CONTACT
+  #contactForm
+    padding: 30px 0
+    .firstCol, .secondCol
+      +columns(12)
+      h2
+        +adjust-font-size-to(24px)
+        letter-spacing: 0
+    .firstCol
+      margin-bottom: 50px
+      margin-left: 0
+      h2
+        text-align: center
+  
+  #signUpForm
+    .sevenColumns
+      +columns(12)
+    .fiveColumns
+      display: none
+
+  .xoxoLinks
+    display: none
+  
+  #errorPage
+    .leftCol
+      display: none
+    .rightCol
+      float: left
+      +columns(12)
+      padding: 0
+
